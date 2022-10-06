@@ -4,17 +4,22 @@
 *{
     margin: 0;
     padding: 0;
-}
+    box-sizing: border-box;
+    }
+    body{
+        font-family: 'Inter', sans-serif;
+    }
 /* ==== Common Fix ends here==== */
 
 
 /* ===== First section starts here===== */
 .firstsection{
-    height: 450px;
-    border: 3px solid black;
+    height: 460px;
+
     display: flex;
 }
 .firstsection-leftdiv{
+    padding: 20px;
     width: 50%;
     height: 100%;
     background: var(--gray-color);
@@ -25,7 +30,28 @@
     background: var(--linear-gradient), url("./images/image1.jpg");
     background-size: cover;
     background-position: bottom left;
-
+}
+.logotext{
+    margin-bottom: 20px;
+}
+span{
+    color: var( --main-color);}
+.heading{
+margin-bottom: 20px;
+}
+.line{
+    height: 16px;
+    background: var(--main-color);
+    width: 224px;
+}
+.firstsection-leftdiv p{
+    margin-bottom: 25px;
+}
+.link-holder{
+    color: var(--white-color);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
 }
 
 /* ===== First section starts here===== */
