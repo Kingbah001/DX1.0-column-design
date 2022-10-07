@@ -36,6 +36,24 @@
 }
 /* ===== Second section ends here===== */
 
+/* ===== Third section starts here===== */
+.thirdsection {
+    flex-direction: column-reverse;
+    background: var(--gray-color);
+}
+/* ===== Third section ends here===== */
+
+/* ==== Mobile version --- Using Media Queries ==== */
+footer {
+    flex-direction: column;
+    padding: 10px 30px;
+    text-align: center;
+}
+.footericons-container {
+    margin-top: 10px 0;
+}
+/* ==== Mobile version --- Using Media Queries ==== */
+
 
 }
 
