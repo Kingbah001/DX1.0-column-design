@@ -154,6 +154,9 @@ a {
     max-width: 1500px;
     margin: 0 auto;
 }
+html.sr .load-hidden{
+    visibility: hidden;
+}
 /* safety measures ends here */
 
 
